@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    background: url("../images/bg2.png") no-repeat center;
+    background-size: cover;
+}
+
+/*==============================================================banner-start=====================================================================================*/
+#banner .profile-tab {
+    padding: 30px;
+    background: rgba(136, 204, 204, 0.2);
+}
+
+#banner .photo {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+    border: 3px solid #1EB0ED;
+
+}
+
+#banner .profile h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+
+
+}
+
+#banner .profile {
+    text-align: center;
+    position: relative;
+}
+
+#banner .profile h1::after {
+    position: absolute;
+    left: -7px;
+    bottom: 10px;
+    content: "";
+    width: 80%;
+    height: 3px;
+    background: #1EB0ED;
+    margin-left: 20px;
+
+
+}
+
+#banner .profile p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: justify;
+    padding: 5px;
+
+}
+
+#banner .profile::after {
+    position: absolute;
+    left: -30px;
+    bottom: 0;
+    content: "";
+    width: 80%;
+    height: 3px;
+    background: #1EB0ED;
+}
+
+/*====================================================================banner-end======================================================================================*/
+/*====================================================================position-start======================================================================================*/
+#position .position-tab {
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(136, 204, 204, 0.2);
+    margin-top: 10px;
+}
+
+#position .position-tab h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    background: #1EB0ED;
+    text-align: center;
+}
+
+#position .position-tab h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #1EB0ED;
+    -webkit-text-stroke: 2px black;
+
+}
+
+/*====================================================================position-end======================================================================================*/
+/*==========================================================================contact-start====================================================================================*/
+#contact-job .contact-job-tab .contact-tab {
+    background: rgba(136, 204, 204, 0.2);
+    padding: 20px;
+    border: 2px solid #1EB0ED;
+    border-top: none;
+    border-left: none;
+
+}
+
+#contact-job .contact-job-tab .contact-tab h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+
+
+}
+
+#contact-job .contact-job-tab .contact-tab h1::after {
+    position: absolute;
+    left: -7px;
+    bottom: 10px;
+    content: "";
+    width: 80%;
+    height: 3px;
+    background: #1EB0ED;
+    margin-left: 20px;
+
+
+}
+
+#contact-job .contact-job-tab .contact-tab .item {
+    display: flex;
+}
+
+#contact-job .contact-job-tab .contact-tab .item .icon {
+    margin: 10px 0;
+}
+
+#contact-job .contact-job-tab .contact-tab .item i {
+    font-size: 20px;
+    color: #1EB0ED;
+    padding: 5px 10px;
+    border-right: 1px solid #1EB0ED;
+    border-radius: 5px;
+}
+
+#contact-job .contact-job-tab .contact-tab .item .text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+#contact-job .contact-job-tab .job-tab {
+    background: rgba(136, 204, 204, 0.2);
+    padding: 20px;
+    border: 2px solid #1EB0ED;
+    border-top: none;
+    border-right: none;
+}
+
+#contact-job .contact-job-tab .job-tab h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+
+}
+
+#contact-job .contact-job-tab .job-tab h1::after {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    content: "";
+    width: 80%;
+    height: 3px;
+    background: #1EB0ED;
+    margin-left: 20px;
+
+
+}
+#contact-job .contact-job-tab .job-tab h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 5px;
+
+
+}
+#contact-job .contact-job-tab .job-tab p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 24px;
+    padding-left: 25px;
+
+
+}
+
+/*==========================================================================contact-end====================================================================================*/
+
+/*================================================================================= skill-edu-start=============================================================================================*/
+#skill-edu .skill-tab{
+    background: rgba(136, 204, 204, 0.2);
+    padding: 20px;
+    border: 2px solid #1EB0ED;
+    border-top: none;
+    border-left: none;
+}
+#skill-edu .skill-tab h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+
+
+}
+#skill-edu .skill-tab h1::after {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    content: "";
+    width: 80%;
+    height: 3px;
+    background: #1EB0ED;
+    margin-left: 20px;
+
+
+}
+#skill-edu .skill-tab h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: justify;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+#skill-edu .edu-tab{
+    background: rgba(136, 204, 204, 0.2);
+    padding: 20px;
+    border: 2px solid #1EB0ED;
+    border-top: none;
+    border-right: none;
+}
+#skill-edu .edu-tab h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+
+
+}
+#skill-edu .edu-tab h1::after {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    content: "";
+    width: 80%;
+    height: 3px;
+    background: #1EB0ED;
+    margin-left: 20px;
+
+
+}
+#skill-edu .edu-tab  h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 5px;
+
+
+}
+#skill-edu .edu-tab p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 24px;
+    padding-left: 25px;
+
+
+}
+/*================================================================================= skill-edu-end=============================================================================================*/
+.cpy{
+    background: rgba(136, 204, 204, 0.2);
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
